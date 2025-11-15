@@ -1,0 +1,375 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/guillaume_deramchi/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/guillaume_deramchi/Documents/hack-station-f/package-lock.json
+
+   ▲ Next.js 16.0.3 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://172.20.10.3:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 621ms
+ GET /api/auth/session 200 in 975ms
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ POST /api/auth/_log 200 in 77ms (compile: 52ms, render: 25ms)
+ GET /scripts 200 in 494ms (compile: 341ms, render: 153ms)
+ GET /api/auth/session 200 in 111ms (compile: 43ms, render: 68ms)
+ GET /api/auth/session 200 in 113ms (compile: 56ms, render: 57ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET / 200 in 364ms (compile: 329ms, render: 35ms)
+ GET /dashboard 200 in 817ms (compile: 184ms, proxy.ts: 5ms, render: 628ms)
+ GET /dashboard 200 in 1151ms (compile: 203ms, proxy.ts: 44ms, render: 903ms)
+ GET / 200 in 15ms (compile: 4ms, render: 11ms)
+ GET /dashboard 200 in 100ms (compile: 2ms, proxy.ts: 4ms, render: 94ms)
+ GET /dashboard 200 in 86ms (compile: 1979µs, proxy.ts: 3ms, render: 81ms)
+ GET / 307 in 49ms (compile: 6ms, render: 43ms)
+ GET /dashboard 200 in 218ms (compile: 3ms, proxy.ts: 3ms, render: 212ms)
+ GET /api/auth/session 200 in 21ms (compile: 8ms, render: 13ms)
+ GET /api/auth/csrf 200 in 19ms (compile: 8ms, render: 10ms)
+ POST /api/auth/signout 200 in 9ms (compile: 2ms, render: 7ms)
+ GET /login 200 in 333ms (compile: 279ms, render: 53ms)
+ GET /api/auth/session 200 in 10ms (compile: 3ms, render: 7ms)
+ GET /api/auth/providers 200 in 17ms (compile: 6ms, render: 11ms)
+ GET /api/auth/csrf 200 in 7ms (compile: 932µs, render: 6ms)
+ POST /api/auth/callback/credentials 200 in 751ms (compile: 1184µs, render: 750ms)
+ GET /api/auth/session 200 in 7ms (compile: 2ms, render: 5ms)
+ GET / 200 in 16ms (compile: 3ms, render: 13ms)
+ GET / 200 in 11ms (compile: 1156µs, render: 10ms)
+ GET /dashboard 200 in 75ms (compile: 5ms, proxy.ts: 4ms, render: 66ms)
+ GET /dashboard 200 in 154ms (compile: 1888µs, proxy.ts: 12ms, render: 140ms)
+ GET / 200 in 18ms (compile: 3ms, render: 15ms)
+ GET /dashboard 200 in 123ms (compile: 1631µs, proxy.ts: 3ms, render: 119ms)
+ GET /dashboard 200 in 110ms (compile: 3ms, proxy.ts: 5ms, render: 102ms)
+ GET /api/auth/session 200 in 13ms (compile: 6ms, render: 7ms)
+ GET /dashboard/setup 200 in 191ms (compile: 153ms, proxy.ts: 8ms, render: 30ms)
+ GET /api/auth/session 200 in 10ms (compile: 4ms, render: 6ms)
+ GET /api/auth/session 200 in 14ms (compile: 4ms, render: 9ms)
+ GET /api/auth/session 200 in 10ms (compile: 4ms, render: 7ms)
+ GET /api/auth/session 200 in 10ms (compile: 3ms, render: 6ms)
+ GET /dashboard/setup 200 in 16ms (compile: 2ms, proxy.ts: 3ms, render: 11ms)
+ ✓ Compiled in 59ms
+ GET /api/auth/session 200 in 16ms (compile: 6ms, render: 10ms)
+ ✓ Compiled in 37ms
+ GET /dashboard/setup 200 in 84ms (compile: 35ms, proxy.ts: 21ms, render: 29ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1000µs, proxy.ts: 2ms, render: 7ms)
+ GET /dashboard/setup 200 in 13ms (compile: 2ms, proxy.ts: 1776µs, render: 9ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1071µs, proxy.ts: 1820µs, render: 7ms)
+ GET /dashboard/setup 200 in 15ms (compile: 3ms, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1031µs, proxy.ts: 1602µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1483µs, proxy.ts: 1685µs, render: 8ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1215µs, proxy.ts: 1827µs, render: 8ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1298µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1468µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 18ms (compile: 5ms, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1628µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1541µs, proxy.ts: 2ms, render: 9ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1351µs, proxy.ts: 2ms, render: 11ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1634µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1441µs, proxy.ts: 2ms, render: 9ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1546µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 15ms (compile: 4ms, proxy.ts: 3ms, render: 9ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1382µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1683µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 18ms (compile: 1802µs, proxy.ts: 3ms, render: 13ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1108µs, proxy.ts: 1824µs, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1754µs, proxy.ts: 3ms, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1374µs, proxy.ts: 1960µs, render: 8ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1283µs, proxy.ts: 1984µs, render: 9ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1260µs, proxy.ts: 1849µs, render: 8ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1364µs, proxy.ts: 2ms, render: 9ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1380µs, proxy.ts: 3ms, render: 9ms)
+ GET /dashboard/setup 200 in 15ms (compile: 4ms, proxy.ts: 2ms, render: 9ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1646µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1626µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 33ms (compile: 7ms, proxy.ts: 7ms, render: 18ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1506µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1560µs, proxy.ts: 2ms, render: 11ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1181µs, proxy.ts: 1830µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1110µs, proxy.ts: 1600µs, render: 10ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1107µs, proxy.ts: 1870µs, render: 6ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1180µs, proxy.ts: 1795µs, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1190µs, proxy.ts: 2ms, render: 8ms)
+ GET /dashboard/setup 200 in 14ms (compile: 4ms, proxy.ts: 1967µs, render: 9ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1728µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1697µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 17ms (compile: 1620µs, proxy.ts: 3ms, render: 12ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1518µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1490µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 18ms (compile: 2ms, proxy.ts: 4ms, render: 12ms)
+ GET /dashboard/setup 200 in 20ms (compile: 2ms, proxy.ts: 3ms, render: 15ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1021µs, proxy.ts: 1648µs, render: 6ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1089µs, proxy.ts: 1909µs, render: 7ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1122µs, proxy.ts: 1754µs, render: 6ms)
+ GET /dashboard/setup 200 in 15ms (compile: 3ms, proxy.ts: 2ms, render: 9ms)
+ GET /dashboard/setup 200 in 10ms (compile: 986µs, proxy.ts: 2ms, render: 7ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1005µs, proxy.ts: 1534µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1253µs, proxy.ts: 2ms, render: 8ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1171µs, proxy.ts: 1935µs, render: 9ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1525µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1591µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1652µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 15ms (compile: 4ms, proxy.ts: 3ms, render: 9ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1532µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1485µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 17ms (compile: 1624µs, proxy.ts: 3ms, render: 13ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1119µs, proxy.ts: 1964µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 967µs, proxy.ts: 1864µs, render: 7ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1072µs, proxy.ts: 1748µs, render: 6ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1092µs, proxy.ts: 1756µs, render: 9ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1775µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1571µs, proxy.ts: 2ms, render: 11ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1351µs, proxy.ts: 2ms, render: 8ms)
+ GET /dashboard/setup 200 in 19ms (compile: 1833µs, proxy.ts: 3ms, render: 14ms)
+ GET /dashboard/setup 200 in 23ms (compile: 4ms, proxy.ts: 6ms, render: 13ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1766µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 9ms (compile: 976µs, proxy.ts: 1840µs, render: 6ms)
+ GET /dashboard/setup 200 in 11ms (compile: 956µs, proxy.ts: 1642µs, render: 8ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1164µs, proxy.ts: 1616µs, render: 7ms)
+ GET /dashboard/setup 200 in 16ms (compile: 2ms, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1745µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 15ms (compile: 4ms, proxy.ts: 2ms, render: 9ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1882µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1957µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 26ms (compile: 4ms, proxy.ts: 5ms, render: 17ms)
+ GET /dashboard/setup 200 in 17ms (compile: 2ms, proxy.ts: 3ms, render: 12ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1683µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1630µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 12ms (compile: 999µs, proxy.ts: 1708µs, render: 9ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1118µs, proxy.ts: 1961µs, render: 7ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1080µs, proxy.ts: 1520µs, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1135µs, proxy.ts: 1678µs, render: 8ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1275µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1320µs, proxy.ts: 2ms, render: 9ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1723µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1500µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 19ms (compile: 1873µs, proxy.ts: 3ms, render: 14ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1357µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1438µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 17ms (compile: 1767µs, proxy.ts: 3ms, render: 12ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1543µs, proxy.ts: 3ms, render: 12ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1145µs, proxy.ts: 1925µs, render: 8ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1134µs, proxy.ts: 1781µs, render: 7ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1075µs, proxy.ts: 1673µs, render: 6ms)
+ GET /dashboard/setup 200 in 12ms (compile: 981µs, proxy.ts: 1615µs, render: 9ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1234µs, proxy.ts: 1917µs, render: 8ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1351µs, proxy.ts: 1912µs, render: 9ms)
+ GET /dashboard/setup 200 in 66ms (compile: 28ms, proxy.ts: 7ms, render: 30ms)
+ GET /dashboard/setup 200 in 17ms (compile: 1384µs, proxy.ts: 2ms, render: 14ms)
+ GET /dashboard/setup 200 in 10ms (compile: 951µs, proxy.ts: 1617µs, render: 8ms)
+ GET /dashboard/setup 200 in 17ms (compile: 3ms, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1106µs, proxy.ts: 1886µs, render: 9ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1389µs, proxy.ts: 1811µs, render: 8ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1179µs, proxy.ts: 1802µs, render: 8ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1627µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1435µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1426µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1425µs, proxy.ts: 2ms, render: 11ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1560µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1538µs, proxy.ts: 3ms, render: 9ms)
+ GET /dashboard/setup 200 in 17ms (compile: 1736µs, proxy.ts: 3ms, render: 13ms)
+ GET /dashboard/setup 200 in 17ms (compile: 2ms, proxy.ts: 4ms, render: 11ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1937µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 22ms (compile: 2ms, proxy.ts: 4ms, render: 15ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1092µs, proxy.ts: 1876µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1065µs, proxy.ts: 1799µs, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1204µs, proxy.ts: 1807µs, render: 8ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1187µs, proxy.ts: 1876µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1239µs, proxy.ts: 1967µs, render: 7ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1294µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1352µs, proxy.ts: 2ms, render: 8ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1427µs, proxy.ts: 2ms, render: 9ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1449µs, proxy.ts: 2ms, render: 12ms)
+ GET /dashboard/setup 200 in 19ms (compile: 2ms, proxy.ts: 4ms, render: 12ms)
+ GET /dashboard/setup 200 in 18ms (compile: 2ms, proxy.ts: 3ms, render: 12ms)
+ GET /dashboard/setup 200 in 21ms (compile: 2ms, proxy.ts: 3ms, render: 15ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1541µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1628µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1801µs, proxy.ts: 2ms, render: 12ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1202µs, proxy.ts: 2ms, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1280µs, proxy.ts: 3ms, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1253µs, proxy.ts: 1865µs, render: 9ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1240µs, proxy.ts: 2ms, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1274µs, proxy.ts: 1945µs, render: 8ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1286µs, proxy.ts: 2ms, render: 11ms)
+ GET /dashboard/setup 200 in 19ms (compile: 2ms, proxy.ts: 4ms, render: 13ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1755µs, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 27ms (compile: 3ms, proxy.ts: 7ms, render: 17ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 82ms (compile: 58ms, render: 24ms)
+ GET /dashboard/setup 200 in 107ms (compile: 2ms, proxy.ts: 4ms, render: 101ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1317µs, proxy.ts: 3ms, render: 9ms)
+ GET /dashboard/setup 200 in 15ms (compile: 2ms, proxy.ts: 4ms, render: 9ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1153µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 16ms (compile: 3ms, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 13ms (compile: 1222µs, proxy.ts: 3ms, render: 8ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1308µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1105µs, proxy.ts: 1545µs, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1041µs, proxy.ts: 1760µs, render: 8ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1087µs, proxy.ts: 1517µs, render: 9ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1063µs, proxy.ts: 1747µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 938µs, proxy.ts: 1540µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 987µs, proxy.ts: 1813µs, render: 9ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1183µs, proxy.ts: 1517µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1098µs, proxy.ts: 1758µs, render: 7ms)
+ GET /dashboard/setup 200 in 22ms (compile: 3ms, proxy.ts: 2ms, render: 17ms)
+ GET /dashboard/setup 200 in 14ms (compile: 1794µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard/setup 200 in 41ms (compile: 3ms, proxy.ts: 16ms, render: 22ms)
+ GET /dashboard/setup 200 in 33ms (compile: 3ms, proxy.ts: 3ms, render: 27ms)
+ GET /dashboard/setup 200 in 16ms (compile: 2ms, proxy.ts: 3ms, render: 11ms)
+ GET /dashboard/setup 200 in 13ms (compile: 3ms, proxy.ts: 3ms, render: 8ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1050µs, proxy.ts: 1713µs, render: 13ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1358µs, proxy.ts: 3ms, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1033µs, proxy.ts: 1612µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 995µs, proxy.ts: 1545µs, render: 9ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1139µs, proxy.ts: 1715µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1359µs, proxy.ts: 1879µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1015µs, proxy.ts: 1633µs, render: 10ms)
+ GET /dashboard/setup 200 in 15ms (compile: 1048µs, proxy.ts: 1704µs, render: 12ms)
+ GET /dashboard/setup 200 in 13ms (compile: 3ms, proxy.ts: 1927µs, render: 8ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1047µs, proxy.ts: 1701µs, render: 8ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1690µs, proxy.ts: 1781µs, render: 8ms)
+ GET /dashboard/setup 200 in 10ms (compile: 974µs, proxy.ts: 1536µs, render: 8ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1014µs, proxy.ts: 1557µs, render: 8ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1102µs, proxy.ts: 1553µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1137µs, proxy.ts: 1766µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1180µs, proxy.ts: 1842µs, render: 9ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1423µs, proxy.ts: 1945µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1019µs, proxy.ts: 1740µs, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 952µs, proxy.ts: 1595µs, render: 8ms)
+ GET /dashboard/setup 200 in 9ms (compile: 960µs, proxy.ts: 1623µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1009µs, proxy.ts: 1544µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 970µs, proxy.ts: 1616µs, render: 9ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1250µs, proxy.ts: 1932µs, render: 8ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1024µs, proxy.ts: 1549µs, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1017µs, proxy.ts: 1517µs, render: 9ms)
+ GET /dashboard/setup 200 in 9ms (compile: 1138µs, proxy.ts: 1699µs, render: 7ms)
+ GET /dashboard/setup 200 in 9ms (compile: 990µs, proxy.ts: 1510µs, render: 7ms)
+ GET /dashboard/setup 200 in 11ms (compile: 958µs, proxy.ts: 1474µs, render: 8ms)
+ GET /dashboard/setup 200 in 10ms (compile: 933µs, proxy.ts: 1522µs, render: 7ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1066µs, proxy.ts: 2ms, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1063µs, proxy.ts: 1604µs, render: 10ms)
+ GET /dashboard/setup 200 in 16ms (compile: 1430µs, proxy.ts: 2ms, render: 12ms)
+ GET /dashboard/setup 200 in 31ms (compile: 2ms, proxy.ts: 3ms, render: 27ms)
+ GET /dashboard/setup 200 in 11ms (compile: 1246µs, proxy.ts: 1681µs, render: 8ms)
+ GET /dashboard/setup 200 in 9ms (compile: 959µs, proxy.ts: 1528µs, render: 7ms)
+ GET /dashboard/setup 200 in 9ms (compile: 937µs, proxy.ts: 1718µs, render: 6ms)
+ GET /dashboard/setup 200 in 10ms (compile: 1884µs, proxy.ts: 1526µs, render: 7ms)
+ GET /dashboard/setup 200 in 9ms (compile: 982µs, proxy.ts: 1459µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 1039µs, proxy.ts: 1609µs, render: 9ms)
+ GET /dashboard/setup 200 in 9ms (compile: 918µs, proxy.ts: 1715µs, render: 7ms)
+ GET /dashboard/setup 200 in 9ms (compile: 930µs, proxy.ts: 1614µs, render: 7ms)
+ GET /dashboard/setup 200 in 12ms (compile: 945µs, proxy.ts: 2ms, render: 9ms)
+ GET /dashboard/setup 200 in 10ms (compile: 976µs, proxy.ts: 1659µs, render: 7ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET / 307 in 128ms (compile: 59ms, render: 70ms)
+ GET /dashboard 200 in 129ms (compile: 40ms, proxy.ts: 2ms, render: 88ms)
+ GET /api/auth/session 200 in 21ms (compile: 6ms, render: 15ms)
+ GET /api/companies 200 in 1155ms (compile: 220ms, render: 935ms)
+ GET /api/analytics/overview 200 in 1258ms (compile: 148ms, render: 1110ms)
+ GET / 200 in 29ms (compile: 3ms, render: 25ms)
+ GET /dashboard 200 in 33ms (compile: 3ms, proxy.ts: 4ms, render: 26ms)
+ GET /dashboard 200 in 13ms (compile: 1699µs, proxy.ts: 2ms, render: 9ms)
+ GET /api/companies 200 in 136ms (compile: 1453µs, render: 135ms)
+ GET /api/analytics/overview 200 in 256ms (compile: 933µs, render: 255ms)
+ GET /api/companies 200 in 519ms (compile: 768µs, render: 518ms)
+ GET /api/analytics/overview 200 in 826ms (compile: 953µs, render: 826ms)
+ GET /onboarding 200 in 576ms (compile: 561ms, render: 15ms)
+ GET /campaigns 200 in 178ms (compile: 164ms, render: 14ms)
+ GET /api/campaigns 200 in 312ms (compile: 126ms, proxy.ts: 1823µs, render: 184ms)
+ GET /api/campaigns 200 in 323ms (compile: 115ms, proxy.ts: 4ms, render: 204ms)
+ GET /scripts 200 in 26ms (compile: 12ms, render: 14ms)
+ GET /voices 200 in 163ms (compile: 148ms, render: 15ms)
+ GET /api/voices 200 in 478ms (compile: 59ms, proxy.ts: 1841µs, render: 417ms)
+ GET /api/voices 200 in 482ms (compile: 51ms, proxy.ts: 2ms, render: 429ms)
+ GET /analytics 200 in 691ms (compile: 668ms, render: 23ms)
+ GET / 200 in 11ms (compile: 1689µs, render: 10ms)
+ GET /dashboard 200 in 26ms (compile: 1257µs, proxy.ts: 2ms, render: 23ms)
+ GET /dashboard 200 in 16ms (compile: 2ms, proxy.ts: 4ms, render: 10ms)
+ GET /api/companies 200 in 92ms (compile: 1024µs, render: 91ms)
+ GET /api/analytics/overview 200 in 138ms (compile: 1803µs, render: 137ms)
+ GET /api/companies 200 in 162ms (compile: 1221µs, render: 161ms)
+ GET /api/analytics/overview 200 in 265ms (compile: 1167µs, render: 264ms)
+ GET / 200 in 29ms (compile: 5ms, render: 24ms)
+ GET /dashboard 200 in 26ms (compile: 1706µs, proxy.ts: 3ms, render: 21ms)
+ GET /dashboard 200 in 13ms (compile: 1430µs, proxy.ts: 3ms, render: 9ms)
+ GET /api/companies 200 in 93ms (compile: 937µs, render: 92ms)
+ GET /api/companies 200 in 108ms (compile: 1162µs, render: 107ms)
+ GET /api/analytics/overview 200 in 147ms (compile: 970µs, render: 146ms)
+ GET /api/analytics/overview 200 in 162ms (compile: 1543µs, render: 161ms)
+ GET /api/auth/session 200 in 20ms (compile: 9ms, render: 11ms)
+ GET /dashboard/settings 200 in 181ms (compile: 161ms, proxy.ts: 4ms, render: 16ms)
+ GET /api/companies 200 in 110ms (compile: 921µs, render: 109ms)
+ GET /api/companies 200 in 153ms (compile: 1303µs, render: 152ms)
+Error: Route "/api/companies/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at PATCH (src/app/api/companies/[id]/route.ts:101:13)
+   99 |     }
+  100 |
+> 101 |     const { id } = params;
+      |             ^
+  102 |
+  103 |     // Check if the company exists and belongs to the user
+  104 |     const existingCompany = await prisma.company.findUnique({
+Error updating company: Error [PrismaClientValidationError]: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$hack$2d$station$2d$f$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].company.findUnique()` invocation in
+/Users/guillaume_deramchi/Documents/hack-station-f/.next/dev/server/chunks/[root-of-the-server]__f923eec6._.js:221:213
+
+  218 }
+  219 const { id } = params;
+  220 // Check if the company exists and belongs to the user
+→ 221 const existingCompany = await __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$hack$2d$station$2d$f$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].company.findUnique({
+        where: {
+          id: undefined,
+      ?   AND?: CompanyWhereInput | CompanyWhereInput[],
+      ?   OR?: CompanyWhereInput[],
+      ?   NOT?: CompanyWhereInput | CompanyWhereInput[],
+      ?   userId?: StringFilter | String,
+      ?   name?: StringFilter | String,
+      ?   industry?: StringNullableFilter | String | Null,
+      ?   size?: StringNullableFilter | String | Null,
+      ?   website?: StringNullableFilter | String | Null,
+      ?   description?: StringNullableFilter | String | Null,
+      ?   targetIndustries?: StringNullableListFilter,
+      ?   targetCompanySize?: StringNullableListFilter,
+      ?   targetLocations?: StringNullableListFilter,
+      ?   targetRoles?: StringNullableListFilter,
+      ?   targetCriteria?: StringNullableFilter | String | Null,
+      ?   knowledgeSource?: StringFilter | String,
+      ?   knowledgeType?: StringFilter | String,
+      ?   onboardingCompleted?: BoolFilter | Boolean,
+      ?   createdAt?: DateTimeFilter | DateTime,
+      ?   updatedAt?: DateTimeFilter | DateTime,
+      ?   user?: UserScalarRelationFilter | UserWhereInput
+        }
+      })
+
+Argument `where` of type CompanyWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+    at <unknown> (src/app/api/companies/[id]/route.ts:104:50)
+    at async PATCH (src/app/api/companies/[id]/route.ts:104:29)
+  102 |
+  103 |     // Check if the company exists and belongs to the user
+> 104 |     const existingCompany = await prisma.company.findUnique({
+      |                                                  ^
+  105 |       where: {
+  106 |         id,
+  107 |       }, {
+  clientVersion: '6.19.0'
+}
+ PATCH /api/companies/cmi0d65j50001el2295pun3wr 500 in 672ms (compile: 492ms, render: 181ms)
+ GET /api/auth/session 200 in 13ms (compile: 5ms, render: 8ms)
+   Reload env: .env.local
+ GET /dashboard/settings 200 in 115ms (compile: 46ms, proxy.ts: 29ms, render: 40ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 71ms (compile: 46ms, render: 25ms)
+ GET /api/auth/session 200 in 15ms (compile: 5ms, render: 10ms)
+ GET /api/auth/session 200 in 17ms (compile: 5ms, render: 12ms)
+   Reload env: .env.local
+ GET /dashboard/settings 200 in 69ms (compile: 33ms, proxy.ts: 9ms, render: 26ms)

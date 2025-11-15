@@ -1,0 +1,82 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/guillaume_deramchi/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/guillaume_deramchi/Documents/hack-station-f/package-lock.json
+
+   ▲ Next.js 16.0.3 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://172.20.10.3:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 584ms
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET / 200 in 1349ms (compile: 1211ms, render: 138ms)
+ GET /login 200 in 454ms (compile: 395ms, render: 59ms)
+ GET /register 200 in 198ms (compile: 171ms, render: 27ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 661ms (compile: 648ms, render: 12ms)
+ GET /api/auth/providers 200 in 7ms (compile: 2ms, render: 5ms)
+ GET /api/auth/csrf 200 in 6ms (compile: 999µs, render: 5ms)
+ GET / 200 in 179ms (compile: 43ms, render: 136ms)
+ GET /api/auth/session 200 in 61ms (compile: 36ms, render: 25ms)
+ GET /register 200 in 86ms (compile: 6ms, render: 80ms)
+ POST /api/auth/register 201 in 1823ms (compile: 669ms, render: 1155ms)
+ GET /api/auth/providers 200 in 21ms (compile: 11ms, render: 10ms)
+ GET /api/auth/csrf 200 in 13ms (compile: 3ms, render: 10ms)
+ POST /api/auth/callback/credentials 200 in 910ms (compile: 3ms, render: 907ms)
+ GET /api/auth/session 200 in 17ms (compile: 5ms, render: 12ms)
+ GET / 200 in 64ms (compile: 4ms, render: 60ms)
+ GET / 200 in 43ms (compile: 5ms, render: 38ms)
+ GET /dashboard 200 in 726ms (compile: 655ms, proxy.ts: 12ms, render: 59ms)
+ GET /dashboard 200 in 714ms (compile: 656ms, proxy.ts: 36ms, render: 22ms)
+ GET /api/companies 200 in 833ms (compile: 284ms, render: 549ms)
+ GET /api/companies 200 in 1303ms (compile: 301ms, render: 1002ms)
+ GET /api/analytics/overview 200 in 1458ms (compile: 306ms, render: 1152ms)
+ GET /api/analytics/overview 200 in 1510ms (compile: 316ms, render: 1194ms)
+ GET /dashboard/setup 200 in 680ms (compile: 626ms, proxy.ts: 11ms, render: 42ms)
+ GET /dashboard/setup 200 in 227ms (compile: 194ms, proxy.ts: 12ms, render: 21ms)
+ GET /api/auth/session 200 in 24ms (compile: 10ms, render: 14ms)
+ GET /api/auth/session 200 in 7ms (compile: 2ms, render: 5ms)
+ GET /api/auth/session 200 in 8ms (compile: 2ms, render: 6ms)
+Setup error: Error: 400 {'error': '/chat/completions: Invalid model name passed in model=blackbox. Call `/v1/models` to view available models for your key.'}
+    at async POST (src/app/api/setup/complete/route.ts:68:24)
+  66 | Script:`;
+  67 |
+> 68 |     const completion = await openai.chat.completions.create({
+     |                        ^
+  69 |       model: 'blackbox',
+  70 |       messages: [
+  71 |         { role: 'system', content: 'You are an expert sales script writer.' }, {
+  status: 400,
+  headers: Headers {
+    date: 'Sat, 15 Nov 2025 15:09:14 GMT',
+    'content-type': 'application/json',
+    'content-length': '151',
+    connection: 'keep-alive',
+    'cf-ray': '99efab1aaaf47023-CDG',
+    'content-encoding': 'br',
+    'rndr-id': '05fb450b-63a8-4502',
+    vary: 'Accept-Encoding',
+    'x-litellm-call-id': '20aff000-d64b-46bd-aa2a-7941cb125220',
+    'x-litellm-key-spend': '1215.3260199000024',
+    'x-litellm-response-cost': '0',
+    'x-render-origin-server': 'uvicorn',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: null,
+  error: [Object],
+  code: '400',
+  param: 'None',
+  type: 'None'
+}
+ POST /api/setup/complete 500 in 3.5s (compile: 866ms, render: 2.7s)
+ GET /api/auth/session 200 in 16ms (compile: 7ms, render: 9ms)
+ GET /api/auth/session 200 in 7ms (compile: 2ms, render: 4ms)

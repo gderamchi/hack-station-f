@@ -1,0 +1,143 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/guillaume_deramchi/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/guillaume_deramchi/Documents/hack-station-f/package-lock.json
+
+   ▲ Next.js 16.0.3 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://172.20.10.3:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 624ms
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET / 200 in 1268ms (compile: 1143ms, render: 125ms)
+ GET /login 200 in 346ms (compile: 297ms, render: 49ms)
+ GET /register 200 in 163ms (compile: 140ms, render: 23ms)
+ GET /dashboard 200 in 359ms (compile: 229ms, proxy.ts: 13ms, render: 116ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 677ms (compile: 659ms, render: 19ms)
+ GET / 307 in 56ms (compile: 4ms, render: 51ms)
+ GET /dashboard 200 in 41ms (compile: 1727µs, proxy.ts: 3ms, render: 37ms)
+ GET /api/auth/session 200 in 18ms (compile: 8ms, render: 10ms)
+ ⨯ ./Documents/hack-station-f/src/lib/pdf-extractor.ts:1:1
+Export default doesn't exist in target module
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m pdf [36mfrom[39m [32m'pdf-parse'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mexport[39m [36minterface[39m [33mPDFExtractionResult[39m {
+ [90m 4 |[39m   text[33m:[39m string[33m;[39m[0m
+
+The export default was not found in module [project]/Documents/hack-station-f/node_modules/pdf-parse/dist/pdf-parse/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import Rectangle?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Documents/hack-station-f/src/lib/pdf-extractor.ts [Client Component Browser]
+    ./Documents/hack-station-f/src/components/onboarding/KnowledgeSourceStep.tsx [Client Component Browser]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Client Component Browser]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/hack-station-f/src/lib/pdf-extractor.ts [Client Component SSR]
+    ./Documents/hack-station-f/src/components/onboarding/KnowledgeSourceStep.tsx [Client Component SSR]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Client Component SSR]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Server Component]
+
+
+
+./Documents/hack-station-f/src/lib/pdf-extractor.ts:1:1
+Export default doesn't exist in target module
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m pdf [36mfrom[39m [32m'pdf-parse'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mexport[39m [36minterface[39m [33mPDFExtractionResult[39m {
+ [90m 4 |[39m   text[33m:[39m string[33m;[39m[0m
+
+The export default was not found in module [project]/Documents/hack-station-f/node_modules/pdf-parse/dist/pdf-parse/web/pdf-parse.es.js [app-client] (ecmascript).
+Did you mean to import Rectangle?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Documents/hack-station-f/src/lib/pdf-extractor.ts [Client Component Browser]
+    ./Documents/hack-station-f/src/components/onboarding/KnowledgeSourceStep.tsx [Client Component Browser]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Client Component Browser]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/hack-station-f/src/lib/pdf-extractor.ts [Client Component SSR]
+    ./Documents/hack-station-f/src/components/onboarding/KnowledgeSourceStep.tsx [Client Component SSR]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Client Component SSR]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Server Component]
+
+
+ GET /onboarding 500 in 966ms (compile: 906ms, render: 60ms)
+ ⨯ ./Documents/hack-station-f/src/lib/pdf-extractor.ts:1:1
+Export default doesn't exist in target module
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m pdf [36mfrom[39m [32m'pdf-parse'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mexport[39m [36minterface[39m [33mPDFExtractionResult[39m {
+ [90m 4 |[39m   text[33m:[39m string[33m;[39m[0m
+
+The export default was not found in module [project]/Documents/hack-station-f/node_modules/pdf-parse/dist/pdf-parse/esm/index.js [app-ssr] (ecmascript).
+Did you mean to import Rectangle?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Documents/hack-station-f/src/lib/pdf-extractor.ts [Client Component Browser]
+    ./Documents/hack-station-f/src/components/onboarding/KnowledgeSourceStep.tsx [Client Component Browser]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Client Component Browser]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/hack-station-f/src/lib/pdf-extractor.ts [Client Component SSR]
+    ./Documents/hack-station-f/src/components/onboarding/KnowledgeSourceStep.tsx [Client Component SSR]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Client Component SSR]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Server Component]
+
+
+
+./Documents/hack-station-f/src/lib/pdf-extractor.ts:1:1
+Export default doesn't exist in target module
+[0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m pdf [36mfrom[39m [32m'pdf-parse'[39m[33m;[39m
+ [90m   |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 2 |[39m
+ [90m 3 |[39m [36mexport[39m [36minterface[39m [33mPDFExtractionResult[39m {
+ [90m 4 |[39m   text[33m:[39m string[33m;[39m[0m
+
+The export default was not found in module [project]/Documents/hack-station-f/node_modules/pdf-parse/dist/pdf-parse/web/pdf-parse.es.js [app-client] (ecmascript).
+Did you mean to import Rectangle?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Documents/hack-station-f/src/lib/pdf-extractor.ts [Client Component Browser]
+    ./Documents/hack-station-f/src/components/onboarding/KnowledgeSourceStep.tsx [Client Component Browser]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Client Component Browser]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Documents/hack-station-f/src/lib/pdf-extractor.ts [Client Component SSR]
+    ./Documents/hack-station-f/src/components/onboarding/KnowledgeSourceStep.tsx [Client Component SSR]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Client Component SSR]
+    ./Documents/hack-station-f/src/app/(dashboard)/onboarding/page.tsx [Server Component]
+
+
+ GET /onboarding 500 in 7ms (compile: 3ms, render: 4ms)
+ GET / 307 in 61ms (compile: 14ms, render: 47ms)
+ GET /dashboard 200 in 69ms (compile: 3ms, proxy.ts: 5ms, render: 61ms)
+ GET /api/auth/session 500 in 12ms (compile: 6ms, render: 6ms)
+ POST /api/auth/_log 500 in 6ms (compile: 3ms, render: 4ms)
+ GET /dashboard 200 in 25ms (compile: 2ms, proxy.ts: 3ms, render: 20ms)
+ ✓ Compiled in 32ms
+   Reload env: .env
+ GET /dashboard 200 in 103ms (compile: 39ms, proxy.ts: 21ms, render: 43ms)
