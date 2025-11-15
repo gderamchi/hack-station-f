@@ -1,0 +1,52 @@
+t=2025-11-15T18:28:49+0100 lvl=info msg="no configuration paths supplied"
+t=2025-11-15T18:28:49+0100 lvl=info msg="using configuration at default config path" path="/Users/guillaume_deramchi/Library/Application Support/ngrok/ngrok.yml"
+t=2025-11-15T18:28:49+0100 lvl=info msg="open config file" path="/Users/guillaume_deramchi/Library/Application Support/ngrok/ngrok.yml" err=nil
+t=2025-11-15T18:28:49+0100 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2025-11-15T18:28:49+0100 lvl=info msg="client session established" obj=tunnels.session
+t=2025-11-15T18:28:49+0100 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2025-11-15T18:28:50+0100 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://37aafdd65fca.ngrok-free.app
+t=2025-11-15T18:28:50+0100 lvl=info msg="update available" obj=updater
+t=2025-11-15T18:29:07+0100 lvl=info msg=start pg=/api/tunnels id=48e5d280cf25544b
+t=2025-11-15T18:29:07+0100 lvl=info msg=end pg=/api/tunnels id=48e5d280cf25544b status=200 dur=243.917µs
+t=2025-11-15T18:29:20+0100 lvl=info msg="join connections" obj=join id=32b072c1c0e3 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=e4bb1947edf6 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=2c161a6ab4bf l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=fcbdac1621c0 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=59169c67f1ea l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=7d11e3705bc0 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=5c418e402057 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=3ddce691441d l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=71f95c1d7dd2 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=2e9e1b04afa4 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=af0702db81bb l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=bf2e67902f8e l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=0c33e75dfaf0 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=84aeced81e9a l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=01c9a3e4f7d2 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=3eeef1cc209f l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=4dfe3340d2f2 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:22+0100 lvl=info msg="join connections" obj=join id=f22b914ff518 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63543
+t=2025-11-15T18:29:25+0100 lvl=info msg="join connections" obj=join id=cac4c39c4495 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:25+0100 lvl=info msg="join connections" obj=join id=1b767e2f5423 l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:25+0100 lvl=info msg="join connections" obj=join id=ba5e7d618cfd l=[::1]:3000 r=[2a02:8440:b50e:a5e3:bdb2:8ad4:7ba5:26e8]:63539
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=15f18114751e l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=0389eb7d31de l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=cc220cd3478a l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=8c3884782017 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=5ede29269460 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=5df24538baea l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=f1362fa2c691 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=211f968e6ffe l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=f3ce6bc4bce8 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=97b48265744d l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=189abf6df12d l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=64cf82b73563 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=db937c5f4050 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=d015caa0e980 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=91005028c6b0 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=2f50448d4ec1 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=5e46ada6d4df l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=758dc59d8a7d l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=7798fda521d4 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:29+0100 lvl=info msg="join connections" obj=join id=deda1238c4f4 l=[::1]:3000 r=195.154.25.96:49941
+t=2025-11-15T18:29:30+0100 lvl=info msg="join connections" obj=join id=eeff9e4ed8d7 l=[::1]:3000 r=195.154.25.96:49943

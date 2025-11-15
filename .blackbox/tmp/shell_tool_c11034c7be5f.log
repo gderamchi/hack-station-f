@@ -1,0 +1,42 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/guillaume_deramchi/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/guillaume_deramchi/Documents/hack-station-f/package-lock.json
+
+   ▲ Next.js 16.0.3 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://172.20.10.3:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 582ms
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET / 200 in 1236ms (compile: 1101ms, render: 135ms)
+ GET / 200 in 52ms (compile: 9ms, render: 43ms)
+   Reload env: .env.local
+ ⚠ Cross origin request detected from 1befeb66c8ac.ngrok-free.app to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 912ms (compile: 898ms, render: 15ms)
+ GET /register 200 in 440ms (compile: 386ms, render: 54ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET / 200 in 121ms (compile: 53ms, render: 68ms)
+ GET /api/auth/session 200 in 16ms (compile: 5ms, render: 11ms)
+ GET / 200 in 25ms (compile: 4ms, render: 21ms)
+ GET /api/auth/session 200 in 17ms (compile: 8ms, render: 10ms)
+ GET /api/auth/session 200 in 8ms (compile: 2ms, render: 6ms)
+   Reload env: .env.local
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET / 200 in 136ms (compile: 56ms, render: 80ms)
+ GET /register 200 in 23ms (compile: 10ms, render: 13ms)
+ GET / 200 in 73ms (compile: 6ms, render: 67ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 40ms (compile: 31ms, render: 9ms)

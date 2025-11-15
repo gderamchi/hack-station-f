@@ -164,29 +164,18 @@ Script:`;
         try {
           console.log('🤖 Initiating Retell AI call...');
           
-          // Generate agent instructions from company profile
-          const agentInstructions = generateAgentInstructions({
-            name: companyName,
-            description: description,
-            targetMarket: targetMarket,
-          });
+          // Use existing Retell agent (configured in dashboard)
+          const agentId = process.env.RETELL_AGENT_ID!;
+          const retellPhoneNumber = process.env.RETELL_PHONE_NUMBER!;
 
-          // Create Retell AI LLM and Agent
-          const { llm, agent } = await retellClient.createAgentWithLLM({
-            name: `${companyName} Sales Agent`,
-            instructions: agentInstructions,
-            beginMessage: `Hello! This is a call from ${companyName}. How are you today?`,
-            voiceId: '11labs-Rachel', // Use ElevenLabs Rachel voice
-          });
-
-          console.log('✅ Retell AI LLM created:', llm.llm_id);
-          console.log('✅ Retell AI agent created:', agent.agent_id);
+          console.log('✅ Using Retell agent:', agentId);
+          console.log('✅ Calling from:', retellPhoneNumber);
 
           // Make the call with Retell AI
           const retellCall = await retellClient.makeCall({
-            agentId: agent.agent_id,
+            agentId: agentId,
             toNumber: testPhone,
-            fromNumber: process.env.TWILIO_PHONE_NUMBER!,
+            fromNumber: retellPhoneNumber,
           });
 
           console.log('✅ Retell AI call initiated:', retellCall.call_id);
@@ -196,7 +185,7 @@ Script:`;
             where: { id: callSession.id },
             data: { 
               retellCallId: retellCall.call_id,
-              retellAgentId: agent.agent_id,
+              retellAgentId: agentId,
               status: 'initiated',
               metadata: {
                 provider: 'retell',

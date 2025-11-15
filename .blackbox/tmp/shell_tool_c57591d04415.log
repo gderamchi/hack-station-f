@@ -12,8 +12,17 @@
 
  ✓ Starting...
  ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
- ✓ Ready in 562ms
+ ✓ Ready in 561ms
+   Reload env: .env.local
 [next-auth][warn][DEBUG_ENABLED] 
 https://next-auth.js.org/warnings#debug_enabled
- GET / 200 in 2.2s (compile: 1339ms, render: 841ms)
-   Reload env: .env.local
+ GET / 200 in 1293ms (compile: 1153ms, render: 140ms)
+ ⚠ Cross origin request detected from 37aafdd65fca.ngrok-free.app to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 685ms (compile: 672ms, render: 13ms)
+ GET /register 200 in 316ms (compile: 299ms, render: 18ms)
+ GET /register 200 in 13ms (compile: 3ms, render: 10ms)
+ GET / 200 in 24ms (compile: 2ms, render: 22ms)
+ GET /api/auth/session 200 in 7ms (compile: 2ms, render: 5ms)
