@@ -1,0 +1,59 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/guillaume_deramchi/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/guillaume_deramchi/Documents/hack-station-f/prospect-ai/package-lock.json
+
+   ▲ Next.js 16.0.3 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://172.20.10.3:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 508ms
+ GET /login?callbackUrl=%2F 200 in 1519ms (compile: 1389ms, render: 131ms)
+ GET /apple-touch-icon-precomposed.png 404 in 863ms (compile: 830ms, render: 33ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 885ms (compile: 870ms, render: 15ms)
+ GET /apple-touch-icon.png 404 in 20ms (compile: 1418µs, render: 19ms)
+ GET /api/auth/providers 200 in 17ms (compile: 8ms, render: 9ms)
+ GET /api/auth/csrf 200 in 6ms (compile: 1323µs, render: 5ms)
+Authorization error: Error: No user found with this email
+    at Object.authorize (src/lib/auth/auth-config.ts:30:19)
+  28 |
+  29 |           if (!user) {
+> 30 |             throw new Error("No user found with this email");
+     |                   ^
+  31 |           }
+  32 |
+  33 |           // Verify password
+ POST /api/auth/callback/credentials 401 in 690ms (compile: 1175µs, render: 689ms)
+ GET /register 200 in 196ms (compile: 184ms, render: 12ms)
+ POST /api/auth/register 201 in 1149ms (compile: 192ms, render: 957ms)
+ GET /api/auth/providers 200 in 20ms (compile: 9ms, render: 11ms)
+ GET /api/auth/csrf 200 in 8ms (compile: 2ms, render: 5ms)
+ POST /api/auth/callback/credentials 200 in 366ms (compile: 971µs, render: 365ms)
+ GET /api/auth/session 200 in 8ms (compile: 1723µs, render: 6ms)
+ GET / 200 in 173ms (compile: 148ms, proxy.ts: 8ms, render: 17ms)
+ GET / 200 in 11ms (compile: 1085µs, proxy.ts: 2ms, render: 7ms)
+ GET /api/auth/session 200 in 19ms (compile: 9ms, render: 11ms)
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to /var/folders/1z/jlh723cx58nbj81d9h354s3h0000gn/T/next-panic-14f4e0e8cc91415dafaef5f8439ef79c.log.
+
+To help make Turbopack better, report this error by clicking here: https://github.com/vercel/next.js/discussions/new?category=turbopack-error-report&title=Turbopack%20Error%3A%20Next.js%20package%20not%20found&body=Turbopack%20version%3A%20%60a51b80449%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0ATurbopack%20Error%3A%20Next.js%20package%20not%20found%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace
+-----
+
+Error: Turbopack build failed with 1 errors:
+./Documents/hack-station-f/prospect-ai
+Error: Next.js inferred your workspace root, but it may not be correct.
+    We couldn't find the Next.js package (next/package.json) from the project directory: /Users/guillaume_deramchi/Documents/hack-station-f/prospect-ai
+     To fix this, set turbopack.root in your Next.js config, or ensure the Next.js package is resolvable from this directory.
+    Note: For security and performance reasons, files outside of the project directory will not be compiled.
+    See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+
+    at ignore-listed frames
+[?25h

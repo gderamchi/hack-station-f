@@ -1,0 +1,49 @@
+🚀 Starting ProspectAI...
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/guillaume_deramchi/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/guillaume_deramchi/Documents/hack-station-f/package-lock.json
+
+   ▲ Next.js 16.0.3 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://172.20.10.3:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 433ms
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET / 200 in 1223ms (compile: 1102ms, render: 122ms)
+ GET /dashboard 200 in 366ms (compile: 327ms, proxy.ts: 7ms, render: 33ms)
+ GET /dashboard 200 in 24ms (compile: 1352µs, proxy.ts: 3ms, render: 20ms)
+ GET /dashboard 200 in 16ms (compile: 1211µs, proxy.ts: 2ms, render: 13ms)
+ GET /dashboard 200 in 16ms (compile: 944µs, proxy.ts: 1978µs, render: 13ms)
+ GET /dashboard 200 in 16ms (compile: 973µs, proxy.ts: 2ms, render: 12ms)
+ GET /dashboard 200 in 16ms (compile: 1053µs, proxy.ts: 1724µs, render: 13ms)
+ GET /dashboard 200 in 15ms (compile: 1499µs, proxy.ts: 3ms, render: 10ms)
+ GET /dashboard 200 in 17ms (compile: 1143µs, proxy.ts: 1979µs, render: 14ms)
+ GET /dashboard 200 in 14ms (compile: 952µs, proxy.ts: 1962µs, render: 11ms)
+ GET /dashboard 200 in 16ms (compile: 974µs, proxy.ts: 1828µs, render: 13ms)
+ GET /dashboard 200 in 29ms (compile: 1755µs, proxy.ts: 2ms, render: 25ms)
+ GET /dashboard 200 in 13ms (compile: 891µs, proxy.ts: 1551µs, render: 11ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 768ms (compile: 754ms, render: 14ms)
+ GET /dashboard 200 in 26ms (compile: 900µs, proxy.ts: 1505µs, render: 24ms)
+ GET /dashboard 200 in 14ms (compile: 919µs, proxy.ts: 1564µs, render: 12ms)
+ GET /dashboard 200 in 13ms (compile: 872µs, proxy.ts: 1538µs, render: 10ms)
+ GET /dashboard 200 in 15ms (compile: 1253µs, proxy.ts: 1627µs, render: 12ms)
+ GET /dashboard 200 in 14ms (compile: 1006µs, proxy.ts: 1499µs, render: 11ms)
+ GET /dashboard 200 in 14ms (compile: 855µs, proxy.ts: 1419µs, render: 11ms)
+ GET /dashboard 200 in 13ms (compile: 908µs, proxy.ts: 1462µs, render: 11ms)
+ GET /dashboard 200 in 13ms (compile: 855µs, proxy.ts: 1442µs, render: 11ms)
+ GET /dashboard 200 in 13ms (compile: 812µs, proxy.ts: 2ms, render: 10ms)
+ GET /dashboard 200 in 12ms (compile: 850µs, proxy.ts: 1522µs, render: 10ms)
+ GET /dashboard 200 in 17ms (compile: 935µs, proxy.ts: 3ms, render: 13ms)
+ GET /dashboard 200 in 135ms (compile: 1043µs, proxy.ts: 1427µs, render: 133ms)
+ GET /api/auth/session 200 in 11ms (compile: 4ms, render: 7ms)
+start.sh: line 9: 12164 Killed: 9               /opt/homebrew/bin/node ./node_modules/.bin/next dev

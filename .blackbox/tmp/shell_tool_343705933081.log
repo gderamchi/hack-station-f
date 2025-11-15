@@ -1,0 +1,66 @@
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/guillaume_deramchi/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/guillaume_deramchi/Documents/hack-station-f/package-lock.json
+
+   ▲ Next.js 16.0.3 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://172.20.10.3:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+ ✓ Ready in 549ms
+ GET /dashboard/setup 200 in 1238ms (compile: 1092ms, proxy.ts: 50ms, render: 96ms)
+[next-auth][warn][DEBUG_ENABLED] 
+https://next-auth.js.org/warnings#debug_enabled
+ GET /api/auth/session 200 in 630ms (compile: 614ms, render: 16ms)
+ GET /api/auth/session 200 in 16ms (compile: 7ms, render: 9ms)
+ GET /api/auth/session 200 in 14ms (compile: 6ms, render: 8ms)
+ GET /api/auth/session 200 in 13ms (compile: 4ms, render: 8ms)
+Setup error: Error: 400 {'error': '/chat/completions: Invalid model name passed in model=gpt-4o. Call `/v1/models` to view available models for your key.'}
+    at async POST (src/app/api/setup/complete/route.ts:68:24)
+  66 | Script:`;
+  67 |
+> 68 |     const completion = await openai.chat.completions.create({
+     |                        ^
+  69 |       model: 'gpt-4o', // Blackbox API supports OpenAI models
+  70 |       messages: [
+  71 |         { role: 'system', content: 'You are an expert sales script writer.' }, {
+  status: 400,
+  headers: Headers {
+    date: 'Sat, 15 Nov 2025 15:11:37 GMT',
+    'content-type': 'application/json',
+    'content-length': '152',
+    connection: 'keep-alive',
+    'cf-ray': '99efae9839a32a07-CDG',
+    'content-encoding': 'br',
+    'rndr-id': '23a1160e-3d82-40e2',
+    vary: 'Accept-Encoding',
+    'x-litellm-call-id': '63a4daeb-f358-44d6-a8ff-cfbdd4c0c0ef',
+    'x-litellm-key-spend': '1217.3473900500023',
+    'x-litellm-response-cost': '0',
+    'x-render-origin-server': 'uvicorn',
+    'cf-cache-status': 'DYNAMIC',
+    server: 'cloudflare',
+    'alt-svc': 'h3=":443"; ma=86400'
+  },
+  requestID: null,
+  error: [Object],
+  code: '400',
+  param: 'None',
+  type: 'None'
+}
+ POST /api/setup/complete 500 in 5.2s (compile: 829ms, render: 4.4s)
+ ✓ Compiled in 33ms
+ ✓ Compiled in 75ms
+ GET /api/auth/session 200 in 91ms (compile: 42ms, render: 49ms)
+ GET /api/auth/session 200 in 23ms (compile: 8ms, render: 16ms)
+ ✓ Compiled in 84ms
+ ✓ Compiled in 36ms
+ GET /api/auth/session 200 in 23ms (compile: 11ms, render: 12ms)
+ GET /api/auth/session 200 in 16ms (compile: 4ms, render: 11ms)
+ GET /api/auth/session 200 in 20ms (compile: 9ms, render: 11ms)
+ GET /api/auth/session 200 in 15ms (compile: 6ms, render: 9ms)
